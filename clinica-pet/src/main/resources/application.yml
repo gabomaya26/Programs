@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+       uri: mongodb+srv://Sami:12345@gabo.xqlvbaq.mongodb.net/?retryWrites=true&w=majority
+       database: Veterinaria

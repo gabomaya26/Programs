@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Clinic Pet | Registro</title>
+</head>
+<body>
+<form id="formulario" method="post">
+    <div id="form-main-container">
+        <div id="form-area">
+            <div id="form-title">
+                Iniciar Sesion
+            </div>
+            <div id="form-body">
+                <div>
+                    <div class="col-12">
+                       <fieldset class="form-group">
+                            <label class="form-label" for="input4">Nombre Persona:</label>
+                            <input class="form-control" id="nombre" placeholder="Nombre Completo" required>
+                        </fieldset>
+                        
+                       <fieldset class="form-group">
+                            <label class="form-label" for="input4">Correo Persona:</label>
+                            <input class="form-control" id="correo" placeholder="Correo Completo" required>
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <label class="form-label" for="input4">Username:</label>
+                            <input class="form-control" id="username" placeholder="Nombre de usuario" required>
+                        </fieldset>
+                    </div>
+                    <div class="col-12">
+                        <fieldset class="form-group">
+                            <label class="form-label" for="input5">Contraseña:</label>
+                            <input  class="form-control" id="password" placeholder="Contraseña de usuario" required>
+                        </fieldset>
+                    </div>
+                </div>
+                <div>
+                    <div class="center-text button-area">
+                        <button type="submit" class="btn btn-cancel">Registro Completo</button>
+                        <button type="button" class="btn btn-send" onclick="window.location.href='/login.html'">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

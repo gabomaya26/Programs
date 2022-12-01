@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clinic Pet | Gabriel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+</head>
+<header id="main-header" class="main-header">
+  <section class="navbar-uts">
+    <img src="data:image/png;base64,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" class="logo" alt="Logo" />
+    <nav class="navbar-general">
+      <a href="index.html">Animales</a>
+      <a href="resultado.html">Historia</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Registro</a>
+      <a href="usuario.html">Usuarios</a>
+      
+    </nav>
+  </section>
+</header>
+<body>
+  <header class="heading">
+    <h1>Animales</h1>
+    <h1> 
+    <button id="btnCrearEstudiante" type="button" class="btn-tamano btn-danger" data-bs-toggle="modal"
+        data-bs-target="#modalEstudiante" data-bs-whatever="@getbootstrap">
+        Agregar Animal
+      </button></h1>
+  </header>
+  <section class="modalito">
+    <div class="modal fade" id="modalEstudiante" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-primary text-white">
+            <h5 class="modal-title" id="exampleModalLabel">Nuevo Animal</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="formulario" method="POST">
+              <div class="mb-3">
+                <label for="nombre" class="col-form-label">Nombre Animal:</label>
+                <input type="text" class="form-control" id="nombre" />
+              </div>
+              <div class="mb-3">
+                <label for="nombre" class="col-form-label">Raza Animal:</label>
+                <input type="text" class="form-control" id="raza" />
+              </div>        
+              <div class="mb-3">
+                <label for="imagen" class="col-form-label">Genero Animal:</label>
+                <input type="text" class="form-control" id="genero" />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="col-form-label">Peso Animal:</label>
+                <input type="text" class="form-control" id="peso" />
+              </div>
+              <div class="mb-3">
+                <label for="direccion" class="col-form-label">Problema Animal:</label>
+                <input type="text" class="form-control" id="problema" />
+              </div>
+              <div class="mb-3">
+                <label for="direccion" class="col-form-label">Imagen Animal:</label>
+                <input type="text" class="form-control" id="imagen" />
+              </div>
+              
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="categorias container" id="animales">
+  
+  </div>
+  <script src="js/animal.mjs" type="module"></script>
+</body>
+<footer id="pie-pagina" class="bg-blue text-white mt-5 p-5">
+  <div class="container">
+    <div class="col">
+      <p class="lead text-center">Copyright &copy; Clinic - Pet | Edgar Gabriel Hernandez Maya</p>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
